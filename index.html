@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyeru's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Eyerusalem Yeshewaber Gugsa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button id="theme-toggle">🌓</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section-bordered">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                As an experienced Lecturer in Computer Science, I specialize in areas such as Python, C++, and Backend Development. I hold both a Bachelor of Science (BS) and a Master of Science (MS) in Computer Science from the University of Gondar.
+
+                In addition to my academic experience, I am deeply passionate about backend development. I have hands-on experience in designing and building scalable backend systems, working with frameworks like Django and Flask, and utilizing databases to create efficient, reliable applications. I am constantly exploring new technologies to enhance my skills and contribute to the evolving tech landscape.
+                
+                My goal is to bridge the gap between theory and practical application, helping students thrive in both academic and professional settings. I am committed to fostering an engaging learning environment while continuing to expand my expertise in backend technologies. Whether in the classroom or on a development project, I aim to make a lasting impact in the field of computer science.        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container project-section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <i class="fas fa-check-circle fa-3x"></i>
+                    <h3>To-Do App</h3>
+                    <p>Manage tasks effectively. Built with Django and Bootstrap.</p>
+                    <a href="https://github.com/Eyeru/GO2COD_WD_01" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <i class="fas fa-brain fa-3x"></i>
+                    <h3>Quiz App</h3>
+                    <p>A fun and interactive quiz platform built with Django</p>
+                    <a href="https://github.com/Eyeru/GO2COD_WD_02" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <i class="fas fa-cloud-sun fa-3x"></i>
+                    <h3>Weather App</h3>
+                    <p>Get real-time weather updates. Developed with Django and OpenWeather API.</p>
+                    <a href="https://github.com/Eyeru/Weather" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="section-bordered">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Want to collaborate on something amazing? Reach out below!</p>
+            <form id="contact-form" action="mailto:eyerusalem@example.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Built using HTML, CSS, and JavaScript | &copy; 2024 Eyerusalem Yeshewaber</p>
+            <div class="socials">
+                <a href="https://github.com/Eyeru" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/eyerusalem-yeshewaber/" target="_blank">LinkedIn</a> |
+                <a href="mailto:eyeru.yeshewa20@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
